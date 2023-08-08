@@ -3,7 +3,8 @@ import pdftotext
 import os
 from os import path
 #path = r'C:\Users\USER\Desktop\2023scan2th'
-path = input("請輸入資料夾路徑：")
+#path = input("請輸入資料夾路徑：")
+path = os.getcwd()
 
 
 for (root, dirs, file) in os.walk(path):
