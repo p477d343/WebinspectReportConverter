@@ -1,5 +1,4 @@
 import time
-import pdftotext
 import os
 from os import path
 #path = r'C:\Users\USER\Desktop\2023scan2th'
