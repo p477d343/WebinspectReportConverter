@@ -18,7 +18,7 @@ for (root, dirs, file) in os.walk(path):
             if "(" in f:
                 os.rename(root+"//"+f, root+"//"+f.replace("(",""))
                 f = f.replace("(","")
-            fullname = str(root)+'/'+str(f)
+            fullname = str(root)+'//'+str(f)
             fullname = fullname.replace(" ","_").replace("(","").replace(")","")
 
             textname = fullname[:-4] + ".txt"
